@@ -3,18 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A4F731A1A28CCAB0AE69920 /* Pods_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA9C9904AB0E606890D7215 /* Pods_demo.framework */; };
 		B57AD68523A633D4004C046C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AD68423A633D4004C046C /* AppDelegate.m */; };
 		B57AD68823A633D4004C046C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AD68723A633D4004C046C /* ViewController.m */; };
 		B57AD68B23A633D4004C046C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57AD68923A633D4004C046C /* Main.storyboard */; };
 		B57AD68D23A633D5004C046C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57AD68C23A633D5004C046C /* Assets.xcassets */; };
 		B57AD69023A633D5004C046C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57AD68E23A633D5004C046C /* LaunchScreen.storyboard */; };
 		B57AD69323A633D5004C046C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AD69223A633D5004C046C /* main.m */; };
-		B57AD6A623A69813004C046C /* IRUserResizableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57AD69E23A633DC004C046C /* IRUserResizableView.framework */; };
-		B57AD6A723A69813004C046C /* IRUserResizableView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B57AD69E23A633DC004C046C /* IRUserResizableView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B57AD6B723A698BB004C046C /* milky_way.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57AD6B623A698BB004C046C /* milky_way.jpg */; };
 /* End PBXBuildFile section */
 
@@ -26,30 +25,12 @@
 			remoteGlobalIDString = B57AD66C23A633C4004C046C;
 			remoteInfo = IRUserResizableView;
 		};
-		B57AD6A823A69814004C046C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B57AD69923A633DC004C046C /* IRUserResizableView.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B57AD66B23A633C4004C046C;
-			remoteInfo = IRUserResizableView;
-		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		B57AD6AA23A69814004C046C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B57AD6A723A69813004C046C /* IRUserResizableView.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		5F1E3E48116D0D2FCE2E23BA /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.release.xcconfig"; path = "Target Support Files/Pods-demo/Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
+		8ED4446E1E54F260024AD32D /* Pods-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.debug.xcconfig"; path = "Target Support Files/Pods-demo/Pods-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		AEA9C9904AB0E606890D7215 /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57AD68023A633D4004C046C /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57AD68323A633D4004C046C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B57AD68423A633D4004C046C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,19 +50,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B57AD6A623A69813004C046C /* IRUserResizableView.framework in Frameworks */,
+				9A4F731A1A28CCAB0AE69920 /* Pods_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8131B6816B3207C51D152C01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEA9C9904AB0E606890D7215 /* Pods_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94B9C4BE49A3AA9F08E57204 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8ED4446E1E54F260024AD32D /* Pods-demo.debug.xcconfig */,
+				5F1E3E48116D0D2FCE2E23BA /* Pods-demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B57AD67723A633D4004C046C = {
 			isa = PBXGroup;
 			children = (
 				B57AD69923A633DC004C046C /* IRUserResizableView.xcodeproj */,
 				B57AD68223A633D4004C046C /* demo */,
 				B57AD68123A633D4004C046C /* Products */,
+				94B9C4BE49A3AA9F08E57204 /* Pods */,
+				8131B6816B3207C51D152C01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,15 +125,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B57AD69623A633D5004C046C /* Build configuration list for PBXNativeTarget "demo" */;
 			buildPhases = (
+				1BEAA2D77AD491CF67215D96 /* [CP] Check Pods Manifest.lock */,
 				B57AD67C23A633D4004C046C /* Sources */,
 				B57AD67D23A633D4004C046C /* Frameworks */,
 				B57AD67E23A633D4004C046C /* Resources */,
-				B57AD6AA23A69814004C046C /* Embed Frameworks */,
+				7532E00D1E8487F9F4F27A00 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B57AD6A923A69814004C046C /* PBXTargetDependency */,
 			);
 			name = demo;
 			productName = demo;
@@ -202,6 +202,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BEAA2D77AD491CF67215D96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7532E00D1E8487F9F4F27A00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B57AD67C23A633D4004C046C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -214,14 +256,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B57AD6A923A69814004C046C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IRUserResizableView;
-			targetProxy = B57AD6A823A69814004C046C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B57AD68923A633D4004C046C /* Main.storyboard */ = {
@@ -357,6 +391,7 @@
 		};
 		B57AD69723A633D5004C046C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ED4446E1E54F260024AD32D /* Pods-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +410,7 @@
 		};
 		B57AD69823A633D5004C046C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F1E3E48116D0D2FCE2E23BA /* Pods-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

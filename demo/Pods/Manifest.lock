@@ -1,0 +1,16 @@
+PODS:
+  - IRUserResizableView (0.1.0)
+
+DEPENDENCIES:
+  - IRUserResizableView
+
+SPEC REPOS:
+  trunk:
+    - IRUserResizableView
+
+SPEC CHECKSUMS:
+  IRUserResizableView: 062c53cf63690736e1aece048d9c41025ca1908d
+
+PODFILE CHECKSUM: f459a07b04625445302ee78abde7fbec51ca5b05
+
+COCOAPODS: 1.8.4

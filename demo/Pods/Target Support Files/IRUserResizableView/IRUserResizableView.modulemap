@@ -1,0 +1,6 @@
+framework module IRUserResizableView {
+  umbrella header "IRUserResizableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
